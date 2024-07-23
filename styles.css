@@ -4,13 +4,33 @@ h1 {
 
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: white;
 
 }
 
+.button {
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    
+    background-image: linear-gradient(to bottom, rgb(16, 2, 219) , rgb(14, 3, 172));
 
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+    margin-top: 40px;
+}
 .hero {
     background-color: #051d40;
 
@@ -62,15 +82,18 @@ p {
 
 }
 
-.profile {
+.container {
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
     
     height: 100vh;
-    background-color: #251d57;
 
+}
+
+.profile {
+    background-color: #251d57;
 }
 
 #profile-pic {
@@ -85,6 +108,76 @@ p {
 
 #please {
     margin-top: 0%;
-    font-size: 0.8rem;
+    font-size: 1rem;
     
+}
+
+.skills {
+    background-color: #051d40;
+    height: 120vh;
+}
+
+.skills > h1 {
+    margin-top: 100px;
+}
+
+.skills-pic {
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+#gaming {
+    float: left;
+}
+
+#gaming > h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+#gaming > p {
+    font-size: 1.5rem;
+}
+
+#coding {
+    float: left;
+    width: 986px;
+}
+
+#coding > h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+#coding > p {
+    font-size: 1.5rem;
+}
+
+#contact {
+    background-color: #251d57;
+    height: 80vh;
+}
+
+.contact > h1 {
+    margin-top: 100px;
+}
+
+.contact > p {
+    font-size: 2rem;
+}
+.contact > #beg {
+    font-size: 1rem;
+}
+
+.footer {
+    background-color: #051d40;
+    height: 20vh;
+}
+
+.footer > p {
+    margin-top: 70px;
+    font-size: 0.95rem;
 }
